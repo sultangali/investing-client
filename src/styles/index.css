@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.product-link-btn {
+  text-decoration: none;
+  cursor: pointer;
+  color: black
+}
+
+.product-link-btn:hover {
+  color: #4361ee;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.data-table {
+  border: 1px solid #4362ee7e;
+  border-top: 6px solid #4362eec0;
+}
+
+.mark {
+  background-color: #e67d2270;
+}
+
+.signin-btn {
+  border-radius: 1px;
+  border: 1px solid #4361ee;
+  background-color: transparent;
+  color: #0023c1
+}
+
+.signup-btn {
+  border-radius: 1px;
+  border: 1px solid #4361ee;
+  background-color: #4361ee;
+}
+
+.language-switch-btn {
+  border-radius: 1px;
+}
+
+.switch-btn {
+  border-radius: 1px;
+  margin-left: 8px;
+  border: 1px solid #dbe2ff;
+  color: white;
+  background-color: transparent;
+}
+
+.live-btn {
+  border: 1px solid red;
+  color: red;
+  background-color: rgb(255, 255, 255);
+}
+
+.remove-top-margin {
+  margin-top: -12px !important;
+}
+
+.brand {
+  font-weight: 800;
+  color: #4361ee;
+  text-shadow: 1px 1px #0023c1;
+}
+
+.form-control {
+  border-radius: 1px;
+  border: 1px solid #4361ee;
+}
+
+.btn-signup {
+  border-radius: 1px;
+}
+
+.phone {
+  input {
+    border: none
+  }
+}
